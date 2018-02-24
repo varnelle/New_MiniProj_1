@@ -45,12 +45,15 @@
     <h3 class="text-center"> Contact Form</h3>
 
     <div class="container">
-        <form action="/action_page.php">
+        <form action="" method="post">
+            {{ csrf_field() }}
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
             <label for="lname">Last Name</label>
             <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+            <p><input placeholder="E-mail..." oninput="this.className = ''" name="email"></p>
 
             <label for="country">Country</label>
             <select id="country" name="country">

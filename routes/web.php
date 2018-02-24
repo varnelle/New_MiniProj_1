@@ -31,3 +31,10 @@ Route::get('/registration', function () {
 Route::get('/login', function () {
     return view('pages.login');
 });
+
+Route::post('/contact', function () {
+    $data = Request ()->all();
+    
+    dd($data);
+});
+

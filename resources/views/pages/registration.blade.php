@@ -89,14 +89,19 @@
     <form id="regForm" action="/action_page.php">
         <h1>Register:</h1>
         <!-- One "tab" for each step in the form: -->
+
+        <div class="container">
         <div class="tab">Name:
             <p><input placeholder="First name..." oninput="this.className = ''" name="fname"></p>
             <p><input placeholder="Last name..." oninput="this.className = ''" name="lname"></p>
         </div>
+        </div>
+            <div class="container">
         <div class="tab">Contact Info:
             <p><input placeholder="E-mail..." oninput="this.className = ''" name="email"></p>
             <p><input placeholder="Phone..." oninput="this.className = ''" name="phone"></p>
         </div>
+            </div>
 
         <div style="overflow:auto;">
             <div style="float:right;">

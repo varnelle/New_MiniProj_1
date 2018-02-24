@@ -1,6 +1,7 @@
 @extends('layouts.default')
 @section('content')
-
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
     <h1 class="text-center"> ABOUT US</h1>
     </div>
     </div>

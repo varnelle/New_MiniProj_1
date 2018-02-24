@@ -34,7 +34,14 @@ Route::get('/login', function () {
 
 Route::post('/contact', function () {
     $data = Request ()->all();
-    
+
     dd($data);
+
+});
+Route::post('/registration', function () {
+    $data = Request ()->all();
+
+    dd($data);
+
 });
 
